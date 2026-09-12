@@ -1,16 +1,16 @@
 # ====================================================================
 # ROBOTS.TXT OPTIMIZADO PARA CLICS DE IA Y SEO DE AUTORIDAD
-# Dominio Satélite: www.babalawosnbenito.info
+# Dominio Satélite: babalawosnbenito.info
 # ====================================================================
 
 User-agent: *
 Allow: /
 
-# BLOCK GPTBOT: Evita que usen tu contenido gratis para entrenar modelos sin darte clics
+# BLOCK GPTBot (Evita entrenamiento masivo sin atribución)
 User-agent: GPTBot
 Disallow: /
 
-# ALLOW SEARCH BOTS: Permite rastreadores de IA que sí generan citas y tráfico directo
+# ALLOW SEARCH BOTS (Permite rastreadores de IA con citas y clics directos)
 User-agent: OAI-SearchBot
 Allow: /
 
@@ -23,9 +23,9 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-# Block PetalBot (Evita consumo de recursos innecesarios)
+# Block PetalBot (Ahorro de recursos y consumo de ancho de banda)
 User-agent: PetalBot
 Disallow: /
 
-# Sitemaps oficiales para Google
-Sitemap: https://www.babalawosnbenito.info/sitemap.xml
+# Mapa de sitio oficial canónico (Sin www para evitar 301 en GSC)
+Sitemap: https://babalawosnbenito.info/sitemap.xml
